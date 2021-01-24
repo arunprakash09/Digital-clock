@@ -1,0 +1,32 @@
+body {
+  background-color: #000000;
+  color: white;
+  margin: 150px;
+  text-align: center;
+}
+@font-face {
+  font-family: " digital-7(italic)";
+  src: url("digital-7 (italic).ttf");
+}
+.container {
+  font-size: 70px;
+  margin-left: 0%;
+}
+.font {
+  font-family: " digital-7(italic)";
+}
+.n-color {
+  color: #00ffff;
+}
+.ml-3 {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+@media screen and (max-width: 1000px) {
+  .mt {
+    margin-top: 100%;
+  }
+  .container {
+    font-size: 90px;
+  }
+}
